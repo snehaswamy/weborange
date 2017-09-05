@@ -1,0 +1,102 @@
+//color-mpas
+$colors:(
+ods-orange:#ff6000, //orange
+ods-blue:#00aaff,   //blue
+ods-grey:#717271,   //grey
+ods-white:#fcfcfc,  //white
+
+ods-yellow:#ffff00, //yellow
+ods-green:#76FF03,  //green
+ods-red:#FF3232,    //red
+ods-azure:#4488FF,   //azure
+
+ods-bg-blue:#002858,
+ods-bg-navy:#220040,
+ods-bg-grey:#505050,
+ods-bg-dark:#434343,
+
+ods-base:#ffffff,
+ods-wb:#cccccc,
+ods-bg-white:#f7f7f7,
+ods-head:#343434,
+ods-black:#0c0c0c,
+);
+
+//color-variables
+$ods-orange:#ff6000;
+$ods-blue:#00aaff;
+$ods-grey:#717271;
+$ods-white:#fcfcfc;
+
+$ods-yellow:#ffff00;
+$ods-green:#76FF03;
+$ods-red:#FF3232;
+$ods-azure:#4488FF;
+
+$ods-bg-blue:#002858;
+$ods-bg-navy:#220040;
+$ods-bg-grey:#505050;
+$ods-bg-dark:#434343;
+
+$ods-base:#ffffff;
+$ods-wb:#cccccc;
+$ods-bg-white:#f7f7f7;
+$ods-head:#343434;
+$ods-black:#0c0c0c;
+
+$font-family: 'Open Sans', sans-serif;
+$url:'https://fonts.googleapis.com/css?family=Open+Sans';
+
+$p-font-sizes: (
+  none  : 14px,
+  small : 12px,
+  medium :20px,
+  large: 36px
+);
+
+$h1-font-sizes: (
+  small : 34px,
+  medium :36px,
+  large: 40px
+);
+
+$h2-font-sizes: (
+  small : 28px,
+  medium :30px,
+  large: 32px
+);
+
+$h3-font-sizes: (
+  small : 22px,
+  medium :24px,
+  large: 26px
+);
+
+$h4-font-sizes: (
+  small : 16px,
+  medium :18px,
+  large: 20px
+);
+$h5-font-sizes:
+(
+	small : 16px,
+  medium :18px,
+  large: 20px
+);
+
+  
+$col-1: 8.33%;
+$col-2 :16.66%;
+$col-3 :25%;
+$col-4 : 33.33%;
+$col-5 : 41.66%;
+$col-6 : 50%;
+$col-7 : 58.33%;
+$col-8 : 66.66%;
+$col-9 : 75%;
+$col-10 : 83.33%;
+$col-11 : 91.66%;
+$col-12 : 100%;
+
+
+

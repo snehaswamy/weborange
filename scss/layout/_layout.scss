@@ -1,0 +1,109 @@
+.card
+	{
+		margin-top:50px;
+		.col-4 
+		{
+			width: $col-4;
+		}
+		.col-8
+		 {
+		 	width: $col-6;
+		 }
+		.card__right 
+		  {
+		     padding-left: 50px;
+		     padding-bottom: 70px;
+		     border-left: 1px solid;    
+		  }
+		 .square
+			{
+		        $height: 200px;
+		        $width: 200px;
+             	.square_org
+				{
+					@include color-box($width,$height,ods-orange);
+		       	}
+		       	.square_blue
+				{
+					@include color-box($width,$height,ods-blue);
+				  
+				}
+				.square_grey
+				{
+					@include color-box($width,$height,ods-grey);
+				 
+				}
+				.square_white
+				{
+					@include color-box($width,$height,ods-white);
+				}
+				.square_yellow
+				{
+					@include color-box($width,$height,ods-yellow);
+				    
+				}
+				.square_green
+				{
+					@include color-box($width,$height,ods-green);
+				    
+				}
+				.square_red
+				{
+					@include color-box($width,$height,ods-red);
+				    
+				}
+				.square_azure
+				{
+					@include color-box($width,$height,ods-azure);
+				    
+				}
+				.square_bg_blue
+				{
+					@include color-box($width,$height,ods-bg-blue);
+				    
+				}
+				.square_bg_navy
+				{
+					@include color-box($width,$height,ods-bg-navy);
+				    
+				}
+				.square_bg_grey
+				{
+					@include color-box($width,$height,ods-bg-grey);
+				    
+				}
+				.square_bg_dark
+				{
+					@include color-box($width,$height,ods-bg-dark);
+				    
+				}
+				.square_base
+				{
+					@include color-box($width,$height,ods-base);
+				    
+				}
+				.square_wb
+				{
+					@include color-box($width,$height,ods-wb);
+				    
+				}
+				.square_bg_white
+				{
+					@include color-box($width,$height,ods-bg-white);
+				    
+				}
+				.square_head
+				{
+					@include color-box($width,$height,ods-head);
+				    
+				}
+				.square_black
+				{
+					@include color-box($width,$height,ods-black);
+				    
+				}
+    		}
+			
+	}
+
+

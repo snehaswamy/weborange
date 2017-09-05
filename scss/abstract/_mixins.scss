@@ -1,0 +1,37 @@
+
+@mixin header_title ($primary-orange-color, $size) 
+{
+   color: $primary-orange-color;
+   font-size: $size;
+}
+
+@mixin color_box($width,$height,$bg-color)
+{
+	width:$width;
+	height:$height;
+	background-color:color($bg-color); //color-function
+}
+
+@mixin clearfix() { 
+   &:before,
+   &:after {
+      content: "";
+      display: table;
+   }
+   &:after {
+      clear: both;
+   }
+}
+
+@mixin font-size($size,$name)
+{
+        font-size: map-get($size,$name);
+}
+ 
+@mixin font-face($font-family,$url,$font-weight,$font-style)
+{
+  font-family: $font-family;
+  src: url($url) format('woff');
+  font-weight: $font-weight;
+  font-style: $font-style;
+}

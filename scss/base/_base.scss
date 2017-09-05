@@ -1,0 +1,8 @@
+body 
+{
+    @include font-face($font-family,$url,normal,normal);
+}
+h1 
+{
+    font-weight: bold;
+}
